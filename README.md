@@ -20,18 +20,18 @@ Um projeto com arquitetura MVC - Model View Controller em quie podemos utilizar 
 Flutter 3.7.12 
 Dart 2.19.6 • DevTools 2.20.1
   
-  sdk: '>=2.19.6 <3.0.0'
+- sdk: '>=2.19.6 <3.0.0'
 
 dependencies:
-  cupertino_icons: ^1.0.2
-  flutter_modular: ^5.0.3
-  mobx: ^2.2.0
-  flutter_dotenv: ^5.0.2
-  loading_animation_widget: ^1.2.0+4
-  awesome_snackbar_content: ^0.1.3
+- cupertino_icons: ^1.0.2
+- flutter_modular: ^5.0.3
+- mobx: ^2.2.0
+- flutter_dotenv: ^5.0.2
+- loading_animation_widget: ^1.2.0+4
+- awesome_snackbar_content: ^0.1.3
 
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
-  build_runner: ^2.3.3
-  mobx_codegen: ^2.2.0
+- flutter_lints: ^2.0.0
+- build_runner: ^2.3.3
+- mobx_codegen: ^2.2.0
