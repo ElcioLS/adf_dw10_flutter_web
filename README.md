@@ -9,7 +9,7 @@ Este projeto é o primeiro totalmente construido e focado especialmente para a t
 
 Um projeto com arquitetura MVC - Model View Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
 
-A few resources to get you started if this is your first Flutter project:
+# Etapas do projeto
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
