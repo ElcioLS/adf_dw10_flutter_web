@@ -9,6 +9,8 @@ Este projeto é o primeiro totalmente construido e focado especialmente para a t
 
 Um projeto com arquitetura MVC - Model View Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
 
+Obs.: Esse projeto não está adaptado para ser usado como E-commece ou Site pessoal. A idéia é preparar e estruturar de forma correta e eficiente para ser usado como Backoffice mesmo do App Mobile VakinhaBurger
+
 # Etapas do projeto
 
 - [Meu Site: Em breve o sistema estará publicado em vps pra testar gratuitamente](https://www.elcicomp.com)
