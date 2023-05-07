@@ -5,7 +5,7 @@ Projeto Flutter Web de Maio de 2023 - Academia do Flutter - Rodrigo Rahman
 ## Sobre o Projeto
 
 Este projeto é o primeiro totalmente construido e focado especialmente para a tecnologia Web de Dart - Flutter.
-É um projeto completo ideal para várias utilidades 100% funcionais com: SAAS, Backoffice, Backend, etc.
+É um projeto completo ideal para várias utilidades 100% funcionais com: SAAS, Backoffice, RP, Backend, etc.
 
 Um projeto com arquitetura MVC - Model View Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
 
