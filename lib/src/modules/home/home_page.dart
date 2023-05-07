@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/env/env.dart';
 import '../../core/ui/helpers/loader.dart';
 import '../../core/ui/helpers/messages.dart';
+import '../../core/ui/helpers/size_extensions.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -29,7 +30,17 @@ class _HomePageState extends State<HomePage> with Loader, Messages {
       ),
       body: Column(
         children: [
-          Text(Env.instance.get('backend_base_url')),
+          Text(
+            Env.instance.get('backend_base_url'),
+          ),
+          Text(
+            context.screenWidget.toString(),
+          ),
+          Container(
+            color: Colors.red,
+            width: context.percentWidth(.5),
+            height: context.percentHeight(.3),
+          )
         ],
       ),
     );
