@@ -7,7 +7,22 @@ Projeto Flutter Web de Maio de 2023 - Academia do Flutter - Rodrigo Rahman
 Este projeto é o primeiro totalmente construido e focado especialmente para a tecnologia Web de Dart - Flutter.
 É um projeto completo ideal para várias utilidades 100% funcionais com: SAAS, Backoffice, RP, Backend, etc.
 
-Um projeto com arquitetura MVC - Model View Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
+Um projeto com arquitetura MVC - Model-View-Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
+
+- Flutter_Modular
+- MobX
+Visando reatividade e micro-gerenciamentos de estados
+
+
+#Estrutura:
+
+- Model => Repositories => Data Access Layer
+- Model => Sevices => Service Layer
+
+- Controller => MobX
+ 
+- View => Flutter Screen
+
 
 Obs.: Esse projeto não está adaptado para ser usado como E-commece ou Site pessoal. A idéia é preparar e estruturar de forma correta e eficiente para ser usado como Backoffice mesmo do App Mobile VakinhaBurger
 
