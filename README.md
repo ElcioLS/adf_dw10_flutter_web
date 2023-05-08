@@ -1,16 +1,54 @@
 # adf_dw10_flutter_web
 
-A new Flutter project.
+Projeto Flutter Web de Maio de 2023 - Academia do Flutter - Rodrigo Rahman
 
-## Getting Started
+## Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+Este projeto é o primeiro totalmente construido e focado especialmente para a tecnologia Web de Dart - Flutter.
+É um projeto completo ideal para várias utilidades 100% funcionais com: SAAS, Backoffice, RPS, Backend, etc.
 
-A few resources to get you started if this is your first Flutter project:
+Um projeto com arquitetura MVC - Model-View-Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter_Modular
+- MobX
+Visando reatividade e micro-gerenciamentos de estados
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#Estrutura:
+
+- Model => Repositories => Data Access Layer
+- Model => Sevices => Service Layer
+
+- Controller => MobX
+ 
+- View => Flutter Screen
+
+
+Obs.: Esse projeto não está adaptado para ser usado como E-commece ou Site pessoal. A idéia é preparar e estruturar de forma correta e eficiente para ser usado como Backoffice mesmo do App Mobile VakinhaBurger
+
+# Etapas do projeto
+
+- [Meu Site: Em breve o sistema estará publicado em vps pra testar gratuitamente](https://www.elcicomp.com)
+- [Link do Projeto Github: projeto em desenvolvimento](https://github.com/ElcioLS/adf_dw10_flutter_web)
+
+## versões utilizadas no momento da implementação do projeto
+
+
+Flutter 3.7.12 
+Dart 2.19.6 • DevTools 2.20.1
+  
+- sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+- cupertino_icons: ^1.0.2
+- flutter_modular: ^5.0.3
+- mobx: ^2.2.0
+- flutter_dotenv: ^5.0.2
+- loading_animation_widget: ^1.2.0+4
+- awesome_snackbar_content: ^0.1.3
+
+
+dev_dependencies:
+- flutter_lints: ^2.0.0
+- build_runner: ^2.3.3
+- mobx_codegen: ^2.2.0
