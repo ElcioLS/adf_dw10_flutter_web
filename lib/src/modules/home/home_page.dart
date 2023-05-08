@@ -4,6 +4,8 @@ import '../../core/env/env.dart';
 import '../../core/ui/helpers/loader.dart';
 import '../../core/ui/helpers/messages.dart';
 import '../../core/ui/helpers/size_extensions.dart';
+import '../../core/ui/styles/colors_app.dart';
+import '../../core/ui/styles/text_styles.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -37,9 +39,13 @@ class _HomePageState extends State<HomePage> with Loader, Messages {
             context.screenWidget.toString(),
           ),
           Container(
-            color: Colors.red,
+            color: context.colors.primary,
             width: context.percentWidth(.5),
             height: context.percentHeight(.3),
+            child: Text(
+              'ExtraBold',
+              style: context.textStyles.textBold,
+            ),
           )
         ],
       ),
