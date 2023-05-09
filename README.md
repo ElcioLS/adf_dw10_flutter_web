@@ -10,8 +10,9 @@ Este projeto é o primeiro totalmente construido e focado especialmente para a t
 Um projeto com arquitetura MVC - Model-View-Controller em quie podemos utilizar todo nosso backoffice do aplicativo de Delivery da dartWeek 09 - VakinhaBurger
 
 - Flutter_Modular
+Injeção de dependências e controle de rotas
 - MobX
-Visando reatividade e micro-gerenciamentos de estados
+Estados, reatividade e micro-gerenciamentos
 
 
 #Estrutura:
