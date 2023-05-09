@@ -22,13 +22,13 @@ class LoginPage extends StatelessWidget {
               height: screenShortestSide * .5,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/lanche.png'),
+                  image: AssetImage('assets/images/lanche.png'), 
                 ),
               ),
             ),
           ),
           Container(
-            padding: EdgeInsets.only(top: context.percentHeight(.10)),
+            padding: EdgeInsets.only(top: context.percentHeight(.10)), 
             child: Image.asset('assets/images/logo.png'),
           ),
           Align(
