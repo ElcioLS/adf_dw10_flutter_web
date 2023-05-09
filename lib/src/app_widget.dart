@@ -9,7 +9,8 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Application Name',
+      debugShowCheckedModeBanner: false,
+      title: 'BackOffice VakinhaBurger',
       theme: ThemeConfig.theme,
       routeInformationParser: Modular.routeInformationParser,
       routerDelegate: Modular.routerDelegate,

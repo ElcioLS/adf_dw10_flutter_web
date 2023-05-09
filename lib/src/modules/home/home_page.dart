@@ -47,9 +47,16 @@ class _HomePageState extends State<HomePage> with Loader, Messages {
               style: context.textStyles.textBold,
             ),
           ),
-          TextFormField(
-            decoration: const InputDecoration(
-              label: Text('Login'),
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Form(
+              autovalidateMode: AutovalidateMode.onUserInteraction,
+              child: TextFormField(
+                decoration: const InputDecoration(
+                  label: Text('Login'),
+                ),
+                validator: (String) => 'Erro',
+              ),
             ),
           ),
           ElevatedButton(
